@@ -20,8 +20,7 @@ jobs:
     - name: Install Dependencies
       run: |
         pip install -r requirements.txt
-        npm install -S -E
-        netlify status
+        npm install netlify-cli -g
     - name: Make top level files
       run: make -C src html
     - name: Assemble site
