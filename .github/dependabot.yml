@@ -18,6 +18,7 @@ updates:
       github-actions:
         patterns:
           - "*"
+  # Enable version updates for NPM
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
