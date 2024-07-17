@@ -1,0 +1,7 @@
+click==8.1.6
+pre-commit==3.7.0
+PyYAML==6.0.0
+Sphinx==7.4.4
+sphinx-book-theme==1.1.2
+sphinx-notfound-page==1.0.1
+sphinxcontrib-spelling==8.0.0
